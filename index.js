@@ -1,5 +1,5 @@
-function studentGrade(marks){
-    if(marks > 79){
+function studentGrade(marks){  //creates a function studentGrade and takes the marks as the argument
+    if(marks > 79){ //first condition, testing if marks if greater than 79 and returns A.
         return "A";
     } else if(marks >= 60){
         return "B"
@@ -11,4 +11,4 @@ function studentGrade(marks){
         return "E"
     }
 }
-console.log(studentGrade(80))
+console.log(studentGrade(80)) // function call passing marks(integer) to the fucntion
